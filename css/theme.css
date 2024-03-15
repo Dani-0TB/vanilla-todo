@@ -1,0 +1,24 @@
+:root {
+  --bg-body: #FAEEE7;
+  --primary: #FFC6C7;
+  --secondary:#FF8BA7;
+  --accent: #9575DE;
+  --text-primary: #000000;
+  --text-task: #000000;
+}
+
+@font-face{
+  font-family: UncutSans;
+  src: url(../res/UncutSans-Variable.ttf);
+}
+
+@media (prefers-color-scheme: dark){
+  :root {
+    --bg-body: #373657;
+    --primary: #6554AF;
+    --secondary:#C4A1FF;
+    --accent: #9575DE;
+    --text-primary: #000000;
+    --text-task: #FFF;
+  }
+}
